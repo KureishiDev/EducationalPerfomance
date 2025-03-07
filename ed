@@ -55,22 +55,3 @@ y_pred = modelo.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f'Erro Quadrático Médio (MSE): {mse}')
 
-# 5. Documentação e GitHub
-# (Crie um README.md e adicione comentários ao código)
-
-# Observações importantes:
-
-# * Substitua 'dados_saeb.csv' e 'dados_socioeconomicos.csv' pelos seus arquivos de dados reais.
-# * Adapte as features e o target da modelagem preditiva de acordo com seus dados e objetivos.
-# * Explore outras visualizações e análises para obter insights mais profundos.
-# * Lembre-se de tratar os dados ausentes e inconsistentes de forma adequada.
-# * A coleta e integração de dados de fontes externas (SAEB, INEP, IBGE) pode ser complexa e exigir etapas adicionais de limpeza e formatação.
-
-# Como usar:
-
-# 1. Instale as bibliotecas necessárias: pip install pandas matplotlib seaborn scikit-learn
-# 2. Obtenha os dados do SAEB, IBGE e outras fontes relevantes.
-# 3. Crie arquivos CSV com os dados e substitua os placeholders no código.
-# 4. Execute o código em um Jupyter Notebook ou ambiente Python.
-# 5. Adapte o código e as análises para seus objetivos específicos.
-# 6. Crie um repositório no GitHub para o projeto e adicione o código e a documentação.
